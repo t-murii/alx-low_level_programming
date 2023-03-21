@@ -12,11 +12,8 @@ int main(void)
 	char message2[]	= "- Dora Korpar, 2015-10-19\n";
 
 	strcat(message1, message2);
-	int messagesize = sizeof(message1);
 
-	messagesize = messagesize - 1;
-
-	write(2, message1, messagesize);
+	write(2, message1, sizeof(message1) - 1);
 	return (1);
 }
 

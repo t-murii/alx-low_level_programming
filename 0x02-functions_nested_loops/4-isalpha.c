@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * _isalpha: checks for uppercase characters
- *@c: the character to check, variable type char
+ * _isalpha - checks for uppercase characters
+ * @c: the character to check, variable type char
  * Return: 1 if c is uppercase, 0 otherwise
  */
 int _isalpha(int c)
@@ -12,4 +12,4 @@ int _isalpha(int c)
 	}
 	else
 		return (0);
-}	
+}

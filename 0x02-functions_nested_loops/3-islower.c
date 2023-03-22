@@ -4,13 +4,8 @@
  *@c: variable to check, variable type char
  * Return: 1 if c is lowercase, 0 if not
  */
-int _islower(c)
+int _islower(int c)
 {
-	if (c>= 'a' && c<= 'z')
-	{
-		return (1);
-	}
-	else
-		return (0);
+	return (c >= 'a' && c <= 'z');
 }
 

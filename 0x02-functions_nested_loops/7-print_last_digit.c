@@ -1,7 +1,7 @@
 #include "main.h"
 /**
- * print_last_digit: Prints the last digit of an int 
- * @n: Variable typr int
+ * print_last_digit - Prints the last digit of an int
+ * @n: Variable type int
  * Return: The last value of n
  *
  *

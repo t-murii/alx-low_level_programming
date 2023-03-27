@@ -10,7 +10,7 @@ void print_rev(char *s)
 {
 	int n;
 
-	/*finds the length of string without null character*/
+	/*finds the length of string*/
 	for (n = 0; s[n] != '\0'; n++)
 		continue;
 

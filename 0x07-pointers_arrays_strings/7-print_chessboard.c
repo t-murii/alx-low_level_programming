@@ -13,7 +13,7 @@ void print_chessboard(char (*a)[8])
 		for (int y = 0; y < 8; y++)
 		{
 
-			_putchar (a[a][b]);
+			_putchar (a[x][y]);
 
 		}
 

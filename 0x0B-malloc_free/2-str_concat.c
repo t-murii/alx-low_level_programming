@@ -40,7 +40,7 @@ char *str_concat(char *s1, char *s2)
 		return (NULL);
 
 	for (a = 0; a < lens1; a++)
-		result[i] = s1[i];
+		text[i] = s1[i];
 	for (b = 0; b < lens2; b++, a++)
 		text[a] = s2[b];
 	text[len] = '\0';

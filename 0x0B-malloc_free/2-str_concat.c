@@ -35,7 +35,7 @@ char *str_concat(char *s1, char *s2)
 	}
 
 	len = lens1 + lens2;
-	text = (char *)malloc(sizeof(char) * (lens + 1));
+	text = (char *)malloc(sizeof(char) * (len + 1));
 	if (text == NULL)
 		return (NULL);
 
